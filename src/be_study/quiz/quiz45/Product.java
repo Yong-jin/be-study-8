@@ -1,0 +1,53 @@
+package be_study.quiz.quiz45;
+
+public class Product {
+	
+	//java		DB
+	//pCode		p_code
+	//pName		p_name
+	//pPrice	p_price	
+	
+//	int p_code;
+//	String p_name;
+//	int p_price; 
+	
+	int pCode;
+	String pName;
+	int pPrice;
+	
+	public Product() {}
+	
+	public Product(int pCode, String pName, int pPrice) {
+		super();
+		this.pCode = pCode;
+		this.pName = pName;
+		this.pPrice = pPrice;
+	}
+	
+	public int getpCode() {
+		return pCode;
+	}
+	public void setpCode(int pCode) {
+		this.pCode = pCode;
+	}
+	public String getpName() {
+		return pName;
+	}
+	public void setpName(String pName) {
+		this.pName = pName;
+	}
+	public int getpPrice() {
+		return pPrice;
+	}
+	public void setpPrice(int pPrice) {
+		this.pPrice = pPrice;
+	}
+	@Override
+	public String toString() {
+		return "Product [pCode=" + pCode + ", pName=" + pName + ", pPrice=" + pPrice + "]";
+	}
+	
+	
+	
+	
+}
